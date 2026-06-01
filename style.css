@@ -1,0 +1,84 @@
+:root {
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  text-align: center;
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+}
+
+.tema {
+  margin: 25px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+  border: solid 1px var(--fontColor);
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  margin: 10px;
+  color: var(--fontColor);
+}
+
+.input {
+  margin: 25px 0;
+  padding: 15px;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+  border: solid 1px var(--fontColor);
+}
+
+.btn {
+  margin: 25px 0;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+  border: solid 1px var(--fontColor);
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.item {
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--fontColor);
+}
+
+.btnDel {
+  margin: 10px;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: var(--backgroundColor);
+  color: #ff0000;
+  border: solid 1px var(--fontColor);
+}
+
+.dark-theme {
+  --backgroundColor: var(--black);
+  --fontColor: var(--white);
+}
+
+.light-theme {
+  --backgroundColor: var(--white);
+  --fontColor: var(--black);
+}
